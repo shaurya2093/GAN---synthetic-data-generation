@@ -2,14 +2,6 @@
 
 The automobile insurance industry faces significant challenges in detecting fraudulent activities due to the imbalanced nature of fraud data which traditional machine learning algorithms struggle to address effectively. In this research, we investigate three approaches aimed at improving the efficiency of fraud detection: Synthetic Minority Over-sampling Technique (SMOTE), Generative Adversarial Networks (GANs), and a hybrid approach combining SMOTE with GANs (SMOTEfied GAN). SMOTE addresses class imbalance by oversampling the minority class while GANs generate synthetic data that resembles the training data distribution. SMOTEfied GAN combines the strengths of both methods by oversampling the minority class with SMOTE before training the GAN, aiming to enhance the quality of synthetic samples. We conduct a comparative analysis of these approaches using a dataset from the automobile insurance industry. Our evaluation includes metrics such as precision, recall, and F1-score. Our findings suggest that each approach offers unique advantages in improving fraud detection efficiency.
 
-## Keywords
-- Fraud detection
-- Automobile insurance claims
-- Generative adversarial network (GAN)
-- Synthetic data generation
-- Machine learning algorithms
-- Synthetic minority over-sampling technique (SMOTE)
-
 ## Introduction
 The automobile insurance industry plays a vital role in mitigating financial risks associated with vehicle ownership and operation. However, one of the most pressing challenges faced by insurance companies is the detection and prevention of fraudulent activities. Fraudulent claims, whether through staged accidents, inflated damages, or falsified information, pose significant financial losses and operational challenges for insurers.
 
